@@ -23,9 +23,9 @@
         // Alterne entre as opções comentadas abaixo para diferentes estilos de mapas
 
         // OpenStreetMap padrão
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: 'Map data © OpenStreetMap contributors'
-        }).addTo(map);
+      //  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        //    attribution: 'Map data © OpenStreetMap contributors'
+      //  }).addTo(map);
 
         // OpenStreetMap HOT (Humanitarian)
         // L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
@@ -37,10 +37,10 @@
         //     attribution: 'Map tiles by Stamen Design, CC BY 3.0, Map data © OpenStreetMap contributors'
         // }).addTo(map);
 
-        // CartoDB (Minimalista)
-        // L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-        //     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>'
-        // }).addTo(map);
+         CartoDB (Minimalista)
+         L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>'
+         }).addTo(map);
 
         // Esri World Imagery (Satelital)
         // L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
