@@ -31,7 +31,7 @@
                 // Adiciona o GeoJSON ao mapa com estilo personalizado
                 L.geoJSON(data, {
                     style: function (feature) {
-                        return { color: 'green', weight: 2, fillOpacity: 0.7 }; // Personalize o estilo
+                        return { color: 'black', weight: 10, fillOpacity: 0.5 }; // Personalize o estilo
                     },
                     onEachFeature: function (feature, layer) {
                         if (feature.properties) {
